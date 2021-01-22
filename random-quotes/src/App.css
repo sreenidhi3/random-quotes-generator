@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container{
+    width: 100%;
+    background-color: #ffd875a2;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.card{
+  padding: calc(20px + 2vmin);
+  background-color: #fffffee7;
+  border: 1px solid #ffd875;
+  width: 70%;
+}
+
+.quote-mark img{
+  width: 50px;
+  margin: 10px;
+}
+
+.quote, .author {
+  margin: 10px 0 10px 0;
+  padding: 10px 0 10px 0;
+}
+
+.generateQuote{
+  font-size: medium;
+  padding: 12px;
+  margin: 20px; 
+  background-color: #f3b926;
+  border: 0;
+  border-radius: 10px;
+  color: rgb(54, 40, 9);
+}
